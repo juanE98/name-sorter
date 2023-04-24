@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{F1C05FF1-E09F-4E27-AE71-750BA94D211D}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.NameSorter PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NameSorter.nUnitTests FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Test/PersonTest.cs">
+    <Files>
+      <File FileName="Name.cs" Line="7" Column="21" />
+      <File FileName="Program.cs" Line="29" Column="22" />
+      <File FileName="../Test/UnitTest1.cs" Line="3" Column="1" />
+      <File FileName="../Test/EmptyClass.cs" Line="11" Column="13" />
+      <File FileName="../Test/Usings.cs" Line="1" Column="20" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="name-sorter" expanded="True">
+            <Node name="NameSorter" expanded="True" selected="True" />
+            <Node name="Test" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="name-sorter" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="name-sorter" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Debugger.DebugSourceFolders />
+</Properties>

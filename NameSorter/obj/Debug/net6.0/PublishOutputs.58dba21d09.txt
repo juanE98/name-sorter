@@ -1,0 +1,5 @@
+/Users/juloe/Documents/Personal Projects/D&D/name-sorter/bin/Debug/net6.0/publish/name-sorter
+/Users/juloe/Documents/Personal Projects/D&D/name-sorter/bin/Debug/net6.0/publish/name-sorter.dll
+/Users/juloe/Documents/Personal Projects/D&D/name-sorter/bin/Debug/net6.0/publish/name-sorter.deps.json
+/Users/juloe/Documents/Personal Projects/D&D/name-sorter/bin/Debug/net6.0/publish/name-sorter.runtimeconfig.json
+/Users/juloe/Documents/Personal Projects/D&D/name-sorter/bin/Debug/net6.0/publish/name-sorter.pdb

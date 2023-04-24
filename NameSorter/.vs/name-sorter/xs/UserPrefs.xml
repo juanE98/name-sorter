@@ -5,22 +5,19 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.NameSorter.nUnitTests FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Test/PersonTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../NameSorter.nUnitTests/PersonTest.cs">
     <Files>
-      <File FileName="Name.cs" Line="7" Column="21" />
-      <File FileName="Program.cs" Line="29" Column="22" />
-      <File FileName="../Test/UnitTest1.cs" Line="3" Column="1" />
-      <File FileName="../Test/EmptyClass.cs" Line="11" Column="13" />
-      <File FileName="../Test/Usings.cs" Line="1" Column="20" />
+      <File FileName="../NameSorter.nUnitTests/PersonTest.cs" Line="20" Column="6" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Person.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="name-sorter" expanded="True">
-            <Node name="NameSorter" expanded="True" selected="True" />
-            <Node name="Test" expanded="True" />
+          <Node name="name-sorter" expanded="True" selected="True">
+            <Node name="NameSorter" expanded="True" />
+            <Node name="NameSorter.nUnitTests" expanded="True" />
           </Node>
         </State>
       </Pad>

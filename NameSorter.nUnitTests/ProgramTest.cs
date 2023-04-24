@@ -9,8 +9,32 @@ public class ProgramTest
     }
 
     [Test]
-    public void TestGivenNames()
+    public void givenNamesTest()
     {
         
+    }
+
+    [Test]
+    public void writeToNewFileTest()
+    {
+
+    }
+
+    [Test]
+    public void processFileTest()
+    {
+
+    }
+
+    [Test]
+    public void sortNamesNullTest()
+    {
+
+    }
+
+    [Test]
+    public void sortNames()
+    {
+
     }
 }

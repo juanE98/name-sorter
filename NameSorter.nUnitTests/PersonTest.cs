@@ -8,7 +8,8 @@ public class PersonTest
 {
     private Person newPerson;
     private Person lastNameOnly;
-    private Person twoNames; 
+    private Person twoNames;
+
     [SetUp]
     public void Setup()
     {
@@ -18,7 +19,7 @@ public class PersonTest
     }
 
     [Test]
-    public void TestToString()
+    public void ToStringTest()
     {
         Assert.That(newPerson.ToString(), Is.EqualTo("John Lee Smith"));
         Assert.That(lastNameOnly.ToString(), Is.EqualTo(" Smith"));

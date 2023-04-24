@@ -1,0 +1,14 @@
+language: csharp
+solution: name-sorter
+mono: none
+dotnet: 7.0.203
+
+install:
+- dotnet restore 
+
+script:
+-dotnet build
+-dotnet test NameSorter.nUnitTests.csproj
+
+notifications:
+	email: false

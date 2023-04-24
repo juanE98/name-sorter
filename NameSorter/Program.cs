@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using NameSorter;
 
-
 namespace NameSorter
 {
     public class Program

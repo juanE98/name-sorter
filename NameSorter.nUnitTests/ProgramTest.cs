@@ -8,8 +8,8 @@ public class ProgramTest
     }
 
     [Test]
-    public void Test1()
+    public void TestGivenNames()
     {
-        Assert.Pass();
+        
     }
 }

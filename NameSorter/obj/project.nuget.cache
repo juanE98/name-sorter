@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cePCze5ubXOdCLL6DnG2VZYbFboTq0u1tbNgo5+eIXoCuEqLIcl4pfc6ztzQhnSnoja/YQsrNjtmR7ShptfUeg==",
+  "dgSpecHash": "yqEwga6q7jjTm2qRuT91uPDJ06ucj1qwTXftO0e/lKxPberFcQfHlTykKcoju048wwTtBBr6YKjMIUVKwtlHKg==",
   "success": true,
-  "projectFilePath": "/Users/juloe/Documents/Personal Projects/D&D/name-sorter/NameSorter.csproj",
+  "projectFilePath": "/Users/juloe/Documents/Personal Projects/D&D/NameSorter/NameSorter.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

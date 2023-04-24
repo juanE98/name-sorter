@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/juloe/Documents/Personal Projects/D&D/name-sorter/NameSorter.csproj",
+      "projectUniqueName": "/Users/juloe/Documents/Personal Projects/D&D/NameSorter/NameSorter.csproj",
       "projectName": "name-sorter",
-      "projectPath": "/Users/juloe/Documents/Personal Projects/D&D/name-sorter/NameSorter.csproj",
+      "projectPath": "/Users/juloe/Documents/Personal Projects/D&D/NameSorter/NameSorter.csproj",
       "packagesPath": "/Users/juloe/.nuget/packages/",
-      "outputPath": "/Users/juloe/Documents/Personal Projects/D&D/name-sorter/obj/",
+      "outputPath": "/Users/juloe/Documents/Personal Projects/D&D/NameSorter/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/juloe/.nuget/NuGet/NuGet.Config"

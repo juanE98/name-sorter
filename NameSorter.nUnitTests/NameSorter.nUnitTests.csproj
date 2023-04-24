@@ -17,6 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\name-sorter\NameSorter.csproj" />
+    <ProjectReference Include="..\NameSorter\NameSorter.csproj" />
   </ItemGroup>
 </Project>

@@ -12,7 +12,9 @@
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.3.0",
           "NUnit3TestAdapter": "4.2.1",
-          "coverlet.collector": "3.1.2"
+          "coverlet.collector": "3.1.2",
+          "name-sorter": "1.0.0",
+          "name-sorter.Reference": "1.0.0.0"
         },
         "runtime": {
           "NameSorter.nUnitTests.dll": {}
@@ -651,6 +653,19 @@
           "System.Threading": "4.0.11",
           "System.Xml.ReaderWriter": "4.0.11"
         }
+      },
+      "name-sorter/1.0.0": {
+        "runtime": {
+          "name-sorter.dll": {}
+        }
+      },
+      "name-sorter.Reference/1.0.0.0": {
+        "runtime": {
+          "name-sorter.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -988,6 +1003,16 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "name-sorter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "name-sorter.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

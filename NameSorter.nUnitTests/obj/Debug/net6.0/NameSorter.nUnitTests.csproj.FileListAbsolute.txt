@@ -1,3 +1,7 @@
+/Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/bin/Debug/net6.0/CoverletSourceRootsMapping
+/Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/bin/Debug/net6.0/name-sorter.deps.json
+/Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/bin/Debug/net6.0/name-sorter.runtimeconfig.json
+/Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/bin/Debug/net6.0/name-sorter
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/bin/Debug/net6.0/NUnit3.TestAdapter.dll
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/bin/Debug/net6.0/NUnit3.TestAdapter.pdb
@@ -85,6 +89,8 @@
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/bin/Debug/net6.0/name-sorter.dll
+/Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/bin/Debug/net6.0/name-sorter.pdb
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/obj/Debug/net6.0/NameSorter.nUnitTests.csproj.AssemblyReference.cache
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/obj/Debug/net6.0/NameSorter.nUnitTests.GeneratedMSBuildEditorConfig.editorconfig
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter.nUnitTests/obj/Debug/net6.0/NameSorter.nUnitTests.AssemblyInfoInputs.cache

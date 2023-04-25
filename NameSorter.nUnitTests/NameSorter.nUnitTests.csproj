@@ -20,11 +20,8 @@
     <ProjectReference Include="..\NameSorter\NameSorter.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="testCases\" />
-    <None Remove="testExpectedSolutions\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="testCases\" />
-    <Folder Include="testExpectedSolutions\" />
+    <None Include="bin\Debug\net6.0\testExpectedSolutions\sortedDefault.txt">
+      <Link>testExpectedSolutions\sortedDefault.txt</Link>
+    </None>
   </ItemGroup>
 </Project>

@@ -1,31 +1,40 @@
-﻿<Properties StartupConfiguration="{F1C05FF1-E09F-4E27-AE71-750BA94D211D}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+﻿<Properties StartupConfiguration="{96BBEA29-3BBD-47FD-A5E2-9D7BC7A29E37}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../NameSorter.nUnitTests/PersonTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="../NameSorter.nUnitTests/PersonTest.cs" Line="27" Column="2" />
-      <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="Person.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="54" Column="39" />
+      <File FileName="Person.cs" Line="29" Column="14" />
+      <File FileName="../NameSorter.nUnitTests/ProgramTest.cs" Line="80" Column="6" NotebookId="1" />
+      <File FileName="../NameSorter.nUnitTests/PersonTest.cs" Line="25" Column="1" NotebookId="1" />
+      <File FileName="../NameSorter.nUnitTests/testExpectedSolutions/sortedDefault.txt" Line="11" Column="20" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="name-sorter" expanded="True" selected="True">
-            <Node name="NameSorter" expanded="True" />
-            <Node name="NameSorter.nUnitTests" expanded="True" />
+          <Node name="name-sorter" expanded="True">
+            <Node name="NameSorter" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="NameSorter.nUnitTests" expanded="True">
+              <Node name="testExpectedSolutions" expanded="True" />
+            </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State name="__root__">
-          <Node name="name-sorter" expanded="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="name-sorter" expanded="True">
-            <Node name="NameSorter.nUnitTests" selected="True" />
+            <Node name="NameSorter.nUnitTests" expanded="True">
+              <Node name="NameSorter.nUnitTests" expanded="True">
+                <Node name="ProgramTest" expanded="True">
+                  <Node name="sortNamesNullTest" selected="True" />
+                </Node>
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -34,4 +43,5 @@
   <MultiItemStartupConfigurations />
   <Debugger.DebugSourceFolders />
   <MonoDevelop.Ide.ItemProperties.NameSorter PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.NameSorter.nUnitTests PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

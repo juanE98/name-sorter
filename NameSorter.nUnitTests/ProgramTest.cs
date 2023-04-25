@@ -12,7 +12,11 @@ public class ProgramTest
     private string lastNamesOnly;
     private string nullSolution;
     private string smallListSolution;
-    private string smallList; 
+    private string sameFirstSolution;
+    private string sameLastSolution;
+    private string smallList;
+    private string sameFirst;
+    private string sameLast;
     private StringWriter stringWriter;
     List<Person> people = new List<Person>();
     List<Person> sortedPeople = new List<Person>();
@@ -27,11 +31,15 @@ public class ProgramTest
         nullPerson = "testCases/null.txt";
         lastNamesOnly = "testCases/lastNames.txt";
         smallList = "testCases/smallList.txt";
+        sameFirst = "testCases/sameFirst.txt";
+        sameLast = "testCases/sameLast.txt";
 
         //Path of test files solutions
         sortedDefault = "testExpectedSolutions/sortedDefault.txt";
         nullSolution = "testExpectedSolutions/nullSolution.txt";
         smallListSolution = "testExpectedSolutions/sortedSmallList.txt";
+        sameFirstSolution = "testExpectedSolutions/sameFirstSolution.txt";
+        sameLastSolution = "testExpectedSolutions/sameLastSolution.txt";
 
         stringWriter = new StringWriter();
         Console.SetOut(stringWriter);
@@ -69,12 +77,46 @@ public class ProgramTest
     }
 
     [Test]
-    public void sortNamesNullTest()
+    public void sortNamesNoFirst()
     {
         try
         {
             Program.ProcessFile(people, nullPerson);
             Program.ProcessFile(sortedPeople, nullSolution);
+            IOrderedEnumerable<Person> sortedNames = Program.sortNames(people);
+            Assert.That(sortedNames.ToList(), Is.EqualTo(sortedPeople));
+
+        }
+        catch (Exception e)
+        {
+            Assert.Fail();
+        }
+    }
+
+    [Test]
+    public void sortNamesSameFirstTest()
+    {        
+        try
+        {
+            Program.ProcessFile(people, sameFirst);
+            Program.ProcessFile(sortedPeople, sameFirstSolution);
+            IOrderedEnumerable<Person> sortedNames = Program.sortNames(people);
+            Assert.That(sortedNames.ToList(), Is.EqualTo(sortedPeople));
+
+        }
+        catch (Exception e)
+        {
+            Assert.Fail();
+        }
+    }
+
+    [Test]
+    public void sortNamesSameLastTest()
+    {        
+        try
+        {
+            Program.ProcessFile(people, sameLast);
+            Program.ProcessFile(sortedPeople, sameLastSolution);
             IOrderedEnumerable<Person> sortedNames = Program.sortNames(people);
             Assert.That(sortedNames.ToList(), Is.EqualTo(sortedPeople));
 

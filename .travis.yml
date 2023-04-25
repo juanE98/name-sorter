@@ -2,7 +2,7 @@ sudo: required
 language: csharp
 solution: NameSorter/name-sorter.sln
 mono: latest
-dotnet: 6.0.310
+dotnet: 6.0.100
 script:
   - dotnet restore 
   - dotnet build

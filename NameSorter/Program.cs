@@ -22,7 +22,8 @@ namespace NameSorter
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message); 
+                Console.WriteLine(e.Message);
+                return;
             }
         }
 
@@ -48,7 +49,8 @@ namespace NameSorter
         /// <param name="names"></param>
         public static void ProcessFile(List<Person> names, string unsortedNames)
         {
-            var files = Directory.GetFiles(Directory.GetCurrentDirectory(), unsortedNames).FirstOrDefault() ?? throw new FileNotFoundException(); 
+            var files = Directory.GetFiles(Directory.GetCurrentDirectory(), unsortedNames)
+                .FirstOrDefault() ?? throw new FileNotFoundException(); 
             
             var lines = File.ReadAllLines(files);
             foreach (var line in lines)

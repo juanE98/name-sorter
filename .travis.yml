@@ -2,13 +2,10 @@ language: csharp
 solution: NameSorter/name-sorter.sln
 mono: none
 dotnet: 6.0.16
-
 install:
-- dotnet restore 
-
+  - dotnet restore
 script:
--dotnet build
--dotnet test NameSorter.nUnitTests/NameSorter.nUnitTests.csproj
-
+  - dotnet build
+  - dotnet test NameSorter.nUnitTests/NameSorter.nUnitTests.csproj
 notifications:
-	email: false
+  email: false

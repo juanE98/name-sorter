@@ -4,22 +4,20 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../NameSorter.nUnitTests/PersonTest.cs">
     <Files>
       <File FileName="Program.cs" Line="54" Column="39" />
       <File FileName="Person.cs" Line="29" Column="14" />
-      <File FileName="../NameSorter.nUnitTests/ProgramTest.cs" Line="80" Column="6" NotebookId="1" />
-      <File FileName="../NameSorter.nUnitTests/PersonTest.cs" Line="25" Column="1" NotebookId="1" />
-      <File FileName="../NameSorter.nUnitTests/testExpectedSolutions/sortedDefault.txt" Line="11" Column="20" NotebookId="1" />
+      <File FileName="../NameSorter.nUnitTests/ProgramTest.cs" NotebookId="1" />
+      <File FileName="../NameSorter.nUnitTests/PersonTest.cs" Line="8" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="name-sorter" expanded="True">
-            <Node name="NameSorter" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="NameSorter" expanded="True" />
             <Node name="NameSorter.nUnitTests" expanded="True">
+              <Node name="Dependencies" selected="True" />
               <Node name="testExpectedSolutions" expanded="True" />
             </Node>
           </Node>
@@ -27,15 +25,7 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="name-sorter" expanded="True">
-            <Node name="NameSorter.nUnitTests" expanded="True">
-              <Node name="NameSorter.nUnitTests" expanded="True">
-                <Node name="ProgramTest" expanded="True">
-                  <Node name="sortNamesNullTest" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="name-sorter" expanded="True" />
         </State>
       </Pad>
     </Pads>

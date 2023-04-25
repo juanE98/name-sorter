@@ -1,10 +1,10 @@
 sudo: required
 language: csharp
-solution: NameSorter/name-sorter.sln
+solution: NameSorter/NameSorter.sln
 mono: latest
 dotnet: 6.0.100
 script:
-  - dotnet restore NameSorter/NameSorter.sln 
+  - dotnet restore NameSorter/NameSorter.sln	 
   - dotnet build NameSorter/NameSorter.sln
   - dotnet test NameSorter.nUnitTests/NameSorter.nUnitTests.csproj
 notifications:

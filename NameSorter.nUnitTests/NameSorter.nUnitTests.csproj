@@ -19,4 +19,12 @@
   <ItemGroup>
     <ProjectReference Include="..\NameSorter\NameSorter.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="testCases\" />
+    <None Remove="testExpectedSolutions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="testCases\" />
+    <Folder Include="testExpectedSolutions\" />
+  </ItemGroup>
 </Project>

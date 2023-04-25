@@ -22,5 +22,15 @@ namespace NameSorter
         {
             return $"{givenName} {lastName}"; 
         }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
+            {
+                return false; 
+            }
+            Person other = obj as Person;
+            return this.givenName == other.givenName && this.lastName == other.lastName;
+        }
     }
 }

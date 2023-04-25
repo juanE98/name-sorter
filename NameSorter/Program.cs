@@ -30,7 +30,7 @@ namespace NameSorter
         /// Writes to txt file in working directory the output of the sorted list
         /// </summary>
         /// <param name="sortedNames"> List of sorted names</param>
-        private static void WriteToNewFile(IOrderedEnumerable<Person> sortedNames)
+        public static void WriteToNewFile(IOrderedEnumerable<Person> sortedNames)
         {
             using (StreamWriter sw = File.CreateText("sorted-names-list.txt"))
             {
@@ -46,7 +46,7 @@ namespace NameSorter
         /// Reads txt file of unsorted names and adds it to a list 
         /// </summary>
         /// <param name="names"></param>
-        private static void ProcessFile(List<Person> names, string unsortedNames)
+        public static void ProcessFile(List<Person> names, string unsortedNames)
         {
             var files = Directory.GetFiles(Directory.GetCurrentDirectory(), unsortedNames).FirstOrDefault() ?? throw new FileNotFoundException(); 
             
@@ -68,7 +68,7 @@ namespace NameSorter
         /// </summary>
         /// <param name="names">List of unsorted names</param>
         /// <returns>List of sorted names</returns>
-        private static IOrderedEnumerable<Person> sortNames(List<Person> names)
+        public static IOrderedEnumerable<Person> sortNames(List<Person> names)
         {
             return names.OrderBy(name => name.lastName).ThenBy(name => name.givenName);
         }

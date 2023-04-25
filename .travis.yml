@@ -1,7 +1,7 @@
 language: csharp
 solution: NameSorter/name-sorter.sln
 mono: none
-dotnet: 6.0.16
+dotnet: 7.0.203
 install:
   - dotnet restore
 script:

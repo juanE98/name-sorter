@@ -1,35 +1,34 @@
-﻿<Properties StartupConfiguration="{15149129-504D-44BE-AAB2-3A559886275A}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties StartupConfiguration="{15149129-504D-44BE-AAB2-3A559886275A}|Default" BuildWithMSBuildOnMono="True">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Person.cs">
     <Files>
       <File FileName="../NameSorter.nUnitTests/PersonTest.cs" />
-      <File FileName="../NameSorter.nUnitTests/ProgramTest.cs" Line="49" Column="6" />
-      <File FileName="Person.cs" Line="10" Column="1" NotebookId="1" />
-      <File FileName="Program.cs" Line="11" Column="23" NotebookId="1" />
+      <File FileName="../NameSorter.nUnitTests/ProgramTest.cs" Line="9" Column="22" />
+      <File FileName="Program.cs" Line="8" Column="1" NotebookId="1" />
+      <File FileName="Person.cs" Line="13" Column="45" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NameSorter" expanded="True">
             <Node name="NameSorter" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Person.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="NameSorter.nUnitTests" expanded="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="NameSorter" expanded="True" />
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.NameSorter PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.NameSorter.nUnitTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

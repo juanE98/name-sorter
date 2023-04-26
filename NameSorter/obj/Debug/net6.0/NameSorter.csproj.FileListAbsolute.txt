@@ -17,6 +17,7 @@
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter/bin/Debug/net6.0/name-sorter.deps.json
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter/bin/Debug/net6.0/name-sorter.runtimeconfig.json
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter/bin/Debug/net6.0/name-sorter.dll
+/Users/juloe/Documents/Personal Projects/D&D/NameSorter/bin/Debug/net6.0/ref/name-sorter.dll
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter/bin/Debug/net6.0/name-sorter.pdb
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter/obj/Debug/net6.0/NameSorter.csproj.AssemblyReference.cache
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter/obj/Debug/net6.0/NameSorter.GeneratedMSBuildEditorConfig.editorconfig
@@ -24,7 +25,6 @@
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter/obj/Debug/net6.0/NameSorter.AssemblyInfo.cs
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter/obj/Debug/net6.0/NameSorter.csproj.CoreCompileInputs.cache
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter/obj/Debug/net6.0/name-sorter.dll
-/Users/juloe/Documents/Personal Projects/D&D/NameSorter/obj/Debug/net6.0/refint/name-sorter.dll
+/Users/juloe/Documents/Personal Projects/D&D/NameSorter/obj/Debug/net6.0/ref/name-sorter.dll
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter/obj/Debug/net6.0/name-sorter.pdb
 /Users/juloe/Documents/Personal Projects/D&D/NameSorter/obj/Debug/net6.0/NameSorter.genruntimeconfig.cache
-/Users/juloe/Documents/Personal Projects/D&D/NameSorter/obj/Debug/net6.0/ref/name-sorter.dll
